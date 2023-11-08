@@ -1,0 +1,250 @@
+h1{
+  font-size: 30px;
+  font-family: Black Ops One;
+  color: #794e3a;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+
+.nav-item{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/*Button*/
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #b3854a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #917250;
+}
+
+.button:hover {background-color: #6e512688}
+
+.button:active {
+  background-color: #6e512688;
+  box-shadow: 0 5px #917250;
+  transform: translateY(4px);
+}
+ 
+h1{
+  font-size: 30px;
+  font-family: Black Ops One;
+  color: #794e3a;
+}
+
+/* Add some padding and a grey background color to containers */
+.container1 {
+  padding: 20px;
+  background-color: rgba(109, 52, 14, 0.274);
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #63371388;
+  box-sizing: border-box;
+  background-color: #794e3a3b;
+  
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #53350c;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.container2 {
+  position: relative;
+}
+
+/* Bottom right text */
+.top {
+  position: absolute;
+  top: 20px;
+  left: 40%;
+  right: 40%;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(110, 67, 27);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.Adress {
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.438);
+  color:rgb(223, 203, 184);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.hours {
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  right: 40%;
+  background-color:  rgba(0, 0, 0, 0.438);
+  color: rgb(223, 203, 184);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.phone {
+  position: absolute;
+  top: 200px;
+  right: 10%;
+  background-color:  rgba(0, 0, 0, 0.438);
+  color: rgb(223, 203, 184);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.column2 {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  padding-left: 5%;
+}
+
+/* Style the images inside the grid */
+.column2 img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column2 img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container3 {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  background-color:  rgba(85, 48, 18, 0.438);
+  color: rgb(241, 239, 237);
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
